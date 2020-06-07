@@ -1,2 +1,4 @@
 ### Preferential Crawling Algortihms  
-*   Breadth-First
+*   Breadth-First  
+*   Best-N-Firsst  
+*   PageRank

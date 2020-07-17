@@ -14,3 +14,4 @@ dplyr::count(df, df$Character, 'freq',sort = TRUE)%>%top_n(5)
 # tokenize
 tokens <- df %>% unnest_tokens(word, Line)
 length(df$Line) # Total number of lines per charachter
+length(tokens$word) #Total number of tokens

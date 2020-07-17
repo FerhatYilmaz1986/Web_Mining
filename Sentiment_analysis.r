@@ -5,6 +5,7 @@ library(dplyr)
 library(tidytext)
 library(ggplot2)
 library(wordcloud)
+library(reshape2)
 
 #Read data
 df = read.csv('All-seasons.csv')

@@ -1,3 +1,6 @@
+library(dplyr)
+
+
 #Read data
 df = read.csv('All-seasons.csv')
 
@@ -6,3 +9,4 @@ head(df)
 tail(df)
 summary(df)
 length(unique(df$Character))
+dplyr::count(df, df$Character, 'freq',sort = TRUE)%>%top_n(5)

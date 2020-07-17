@@ -27,3 +27,6 @@ wordcloud(tokens$word, max.words = 100, colors = brewer.pal(6,"Dark2"))
 
 #Compile sentiment list using 'bing' sentiments
 sentiment_list = get_sentiments('bing')
+
+#compare the distribution of classes in bing dataset
+pos_list = subset(sentiment_list, sentiment=='positive')

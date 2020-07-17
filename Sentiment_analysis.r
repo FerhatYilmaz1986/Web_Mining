@@ -24,3 +24,6 @@ length(tokens$word) #Total number of tokens
 
 #Visualize tokenized words
 wordcloud(tokens$word, max.words = 100, colors = brewer.pal(6,"Dark2"))
+
+#Compile sentiment list using 'bing' sentiments
+sentiment_list = get_sentiments('bing')

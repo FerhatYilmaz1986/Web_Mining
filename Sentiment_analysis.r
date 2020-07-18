@@ -30,3 +30,5 @@ sentiment_list = get_sentiments('bing')
 
 #compare the distribution of classes in bing dataset
 pos_list = subset(sentiment_list, sentiment=='positive')
+neg_list = subset(sentiment_list, sentiment=='negative')
+length(pos_list$word)

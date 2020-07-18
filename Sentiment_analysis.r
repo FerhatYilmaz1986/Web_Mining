@@ -34,3 +34,6 @@ neg_list = subset(sentiment_list, sentiment=='negative')
 length(pos_list$word)
 length(neg_list$word)
 barplot(table(count(pos_list,pos_list$word),(count(neg_list,neg_list$word))),beside = TRUE)
+
+##Get sentiments
+df_sent =  tokens %>% 

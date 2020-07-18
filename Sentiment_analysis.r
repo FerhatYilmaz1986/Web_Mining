@@ -39,3 +39,6 @@ barplot(table(count(pos_list,pos_list$word),(count(neg_list,neg_list$word))),bes
 df_sent =  tokens %>%
 inner_join(sentiment_list) %>%
   anti_join(stop_words, by = "word")
+
+df_sent %>%
+  count(sentiment)

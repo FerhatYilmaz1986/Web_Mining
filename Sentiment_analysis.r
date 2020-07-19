@@ -48,3 +48,11 @@ df_sent %>%
 count(word, sentiment)%>%
 acast(word ~ sentiment, value.var = "n", fill = 0)%>%
 comparison.cloud(max.words= 30)
+
+# Most frequently used negative and positive words
+freq_counts = df_sent%>%
+  count(word, sentiment)%>%
+  group_by(sentiment) %>%
+  top_n(5) %>%
+  ungroup() %>%
+  mutate(word = reorder(word, n))

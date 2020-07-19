@@ -45,4 +45,5 @@ df_sent %>%
 
 # Visualize 15 positive and 15 negative words using wordcloud
 df_sent %>%
-count(word, sentiment)
+count(word, sentiment)%>%
+acast(word ~ sentiment, value.var = "n", fill = 0)

@@ -42,3 +42,7 @@ inner_join(sentiment_list) %>%
 
 df_sent %>%
   count(sentiment)
+
+# Visualize 15 positive and 15 negative words using wordcloud
+df_sent %>%
+count(word, sentiment)

@@ -56,3 +56,7 @@ freq_counts = df_sent%>%
   top_n(5) %>%
   ungroup() %>%
   mutate(word = reorder(word, n))
+
+ggplot(freq_counts, aes(word, n, fill = sentiment)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~sentiment, ncol = 2, scales = "free_x")

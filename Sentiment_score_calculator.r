@@ -19,3 +19,7 @@ sentiment<-function(doc){
   neglist = readLines('negative-words.txt')
   countpos = 0
   countneg = 0
+  for (i in range(1:length(doc[a3]))){
+    if (doc[a3][i] %in% poslist){
+      countpos = countpos+1
+    }

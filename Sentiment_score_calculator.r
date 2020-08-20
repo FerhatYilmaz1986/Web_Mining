@@ -25,3 +25,11 @@ sentiment<-function(doc){
     }
     if (doc[a3][i] %in% neglist){
       countneg = countneg+1
+      }
+  }
+  return(countpos-countneg)
+}
+#Example text
+doc<-"This book is Great"
+
+sentiment(doc)

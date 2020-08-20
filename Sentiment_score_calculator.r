@@ -17,3 +17,5 @@ sentiment<-function(doc){
   # Set the folder that has files as a working directory, so did not use path
   poslist = readLines('positive-words.txt')
   neglist = readLines('negative-words.txt')
+  countpos = 0
+  countneg = 0

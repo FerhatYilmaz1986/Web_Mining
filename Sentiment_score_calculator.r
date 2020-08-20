@@ -23,3 +23,5 @@ sentiment<-function(doc){
     if (doc[a3][i] %in% poslist){
       countpos = countpos+1
     }
+    if (doc[a3][i] %in% neglist){
+      countneg = countneg+1

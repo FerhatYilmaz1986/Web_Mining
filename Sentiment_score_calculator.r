@@ -29,7 +29,7 @@ sentiment<-function(doc){
   }
   return(countpos-countneg)
 }
-#Example text
+#Example text and its sentiment score
 doc<-"This book is Great"
 
 sentiment(doc)

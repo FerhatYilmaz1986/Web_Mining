@@ -1,5 +1,5 @@
 ## Web Mining  
-Definition : Web mining is discovering and extracting information from web documents by using data mininng techniques.  
+### Definition : Web mining is discovering and extracting information from web documents by using data mininng techniques.  
 *   Data mining techniques
     *   Classification
     *   Anomaly detection
@@ -9,7 +9,10 @@ Definition : Web mining is discovering and extracting information from web docum
 *   Applications to the web  
     *   Information retrieval
     *   E-commerce
-    *   Network management
+    *   Network management  
+    
+### Information Retrieval and Text Processing/Representation  
+
 ### Sentiment Analysis  
 Sentiment analysis is the process of determining whether a piece of writing is positive, negative or neutral.  
 South Park cartoon series dialogue from 18 seasons used as dataset.  

@@ -6,7 +6,10 @@ Definition : Web mining is discovering and extracting information from web docum
     *   Clustering
     *   Association rules
     *   Sequential patterns  
-    
+*   Applications to the web  
+    *   Information retrieval
+    *   E-commerce
+    *   Network management
 ### Sentiment Analysis  
 Sentiment analysis is the process of determining whether a piece of writing is positive, negative or neutral.  
 South Park cartoon series dialogue from 18 seasons used as dataset.  

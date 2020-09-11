@@ -19,7 +19,8 @@
 Sentiment analysis is the process of determining whether a piece of writing is positive, negative or neutral.  
 ##### Sentiment Analysis of South Park series in R  
 *[Code in R script](/Sentiment_analysis.r)  
+  
 South Park cartoon series dialogue from 18 seasons used as dataset. It was a controversial show with a lot of  
 interesting dialogues, is a good candidate for sentiment analysis. There are 70,897 rows in the data.  
- ![Visulization of positive and negative words with wordclouds](/images/Sentiments.PNG)
+ ![Visulization of positive and negative words with wordclouds](/images/EDA.png)
 
